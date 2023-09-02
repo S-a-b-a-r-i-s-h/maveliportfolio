@@ -29,7 +29,10 @@ const Wishes = () => {
     }
 
   return (
-    <div id='wishes' className='wish'>
+    <motion.div id='wishes' className='wish'
+    
+            ref={ref}
+             >
         <p className='para1 quicksand'>
             As Thiruvonam fades into cherished memories, 
             I depart with a heart filled with joy and gratitude for your warm embrace. 
@@ -46,7 +49,7 @@ const Wishes = () => {
             animate={controls}
             variants={headingVariants} 
         >മനസിലായോ</motion.h2>
-    </div>
+    </motion.div>
   )
 }
 
