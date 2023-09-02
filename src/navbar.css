@@ -1,0 +1,103 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.app__navbar-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-family: 'Arima', cursive;
+    font-size: 50px;
+}
+.app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.app__navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.app__navbar-links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.app__navbar-smallscreen{
+    display: none;
+}
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+.app__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    cursor: pointer;
+    position: absolute;
+    color: #dbbb48;
+    /* font-weight: 700; */
+    top: 20px;
+    right: 20px;   
+}
+.app__navbar-smallscreen_links{
+    list-style: none;   
+}
+.app__navbar-smallscreen_links li{
+    margin: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    transition: 0.3s;
+}
+.app__navbar-smallscreen_links li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.app__navbar-smallscreen_links li:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.hamburg{
+    cursor: pointer;
+}
+
+@media screen and (max-width:2000px){
+}
+@media screen and (max-width:1150px) {
+    .app__navbar-links{
+        display: none;
+    }
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+    .app__navbar{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .app__navbar-logo{
+        font-size: 26px;
+        width: 250px;
+    }
+    .app__navbar{
+        padding: 1rem;
+    }
+    .app__navbar-logo{
+        width: 110px;
+    }
+}

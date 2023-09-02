@@ -1,0 +1,139 @@
+.aboutSection,.vamana{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    /* border: 2px solid red; */
+}
+.aboutContent,.vamanaContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-left: 8rem;
+    color: white;
+    /* border: 2px solid blue; */
+}
+.vamanaContent{
+    height: 70vh;
+    /* max-width: 60vw; */
+}
+.oneLine{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+}
+.description{
+    line-height: 20px;
+    font-size: 20px;
+    color: rgb(130, 130, 112);
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.aboutContent h1, .vamanaContent h1{
+    line-height: 100px;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 3rem;
+    /* width: fit-content; */
+}
+.aboutImage img{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    object-fit: cover;
+    /* border: 2px solid blue; */
+}
+.vamanaImage img{
+    height: 70vh;
+    margin-right: 50px;
+}
+@media screen and (max-width:1200px){
+    .aboutContent h1,.vamanaContent h1{
+        line-height: 80px;
+        font-size: 50px;
+    }
+    .aboutSection{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .aboutContent{
+        height: 50vh;
+    }
+    .vamana{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px){
+    .aboutContent,.vamanaContent{
+        padding: 3rem; 
+        margin: 0;
+        height: 70%;
+        font-size: 20px;
+    }
+    .oneLine{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .aboutContent p,.vamanaContent p{
+        font-size: 20px;
+    }
+    .aboutContent h1,.vamanaContent h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .aboutSection,.vamana{
+        padding: 0;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    /* .aboutImage{
+        width: 80vw;
+        height: 80vh;
+    } */
+    .aboutImage img{
+        padding: 0;
+        width: 100vw;
+        height: 80vh;
+    }
+    .vamanaImage img{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width:450px){
+    .aboutImage{
+        margin: 0;
+        padding-top: 0;
+    }
+    .aboutImage img{
+        width: 100vw;
+        height: 60vh;
+    }
+    .vamanaImage img{
+        width: 100vw;
+        height: 50vh;
+    }
+}

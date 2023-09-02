@@ -1,0 +1,62 @@
+.onamSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    max-width: 60vw;
+    margin: auto;
+    margin-top:  5rem; ;
+}
+.oneLine{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.description{
+    line-height: 20px;
+    font-size: 20px;
+    color: rgb(130, 130, 112);
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.Heading{
+    line-height: 100px;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:1200px){
+    .onamSection{
+        max-width: 70vw;
+    }
+    .Heading{
+        line-height: 80px;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:650px){
+    .onamSection{
+        height: 80vh;
+        max-width: 90vw;
+        padding-left: 4rem;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .oneLine{
+        font-size: 20px;
+    }
+    .Heading{
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:450px){
+    .onamSection{
+        padding: 1rem;
+        height: 100vh;
+    }
+}

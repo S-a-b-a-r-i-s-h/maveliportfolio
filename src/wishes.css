@@ -1,0 +1,36 @@
+.wish{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 60%;
+    margin: 30px auto;
+}
+.para1{
+    color: rgb(130, 130, 112);
+}
+.para1,.para2{
+    margin: 20px 0;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+}
+.para2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    word-spacing: 2px;
+
+}
+.manasilayo{
+    font-size: 40px;
+    margin: 20px auto;
+}
+@media screen and (max-width:500px) {
+    .wish{
+        max-width: 80%;
+    }
+    .para1,.para2{
+        font-size: 15px;
+    }
+    .manasilayo{
+        font-size: 25px;
+    }
+}
