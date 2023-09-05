@@ -18,7 +18,7 @@
 }
 .contactContent{
     width: 40%;
-    height: 90vh;
+    max-height: 100vh;
     padding: 3rem;
     border-radius: 10px;
     background-color: #1d1f20;

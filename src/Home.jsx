@@ -44,7 +44,7 @@ const Home = () => {
       ref={ref}
     >
       <div className='homeContent'>
-        <p className='oneLine '>King <span className='a'>Maveli</span></p>
+        <p className='oneLine '>King Maveli</p>
         <motion.h1 className='gradient Heading'
           
           initial='hidden'

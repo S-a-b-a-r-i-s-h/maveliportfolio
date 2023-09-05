@@ -52,7 +52,7 @@ const About = () => {
           />
         </div>
         <div className='aboutContent'>
-          <p className='oneLine'>Beloved King of <span className='a'>Kerala</span></p>
+          <p className='oneLine'>Beloved King of Kerala</p>
           <motion.h1 className='gradient Heading'
             initial='hidden'
             animate={controls}
@@ -62,9 +62,9 @@ const About = () => {
           </motion.h1>
           <p className='description quicksand'>
             Maveli, the legendary king of Kerala, embodies benevolence and equity in local lore. 
-            His reign symbolizes an era of prosperity and fairness, etching his name in the cultural consciousness. 
-            The annual festival of Onam celebrates his return, adorned with vibrant flower carpets and exuberant festivities, 
-            fostering unity and preserving his legacy of compassion for generations to come.
+            My reign symbolizes an era of prosperity and fairness, etching my name in the cultural consciousness. 
+            The annual festival of Onam celebrates my return, adorned with vibrant flower carpets and exuberant festivities, 
+            fostering unity and preserving my legacy of compassion for generations to come.
           </p>
         </div>
     </div>
