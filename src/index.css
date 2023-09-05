@@ -7,6 +7,9 @@
   --background:white;
   --oneline:black;
 }
+title{
+  font-family: 'Cormorant Garamond', serif;
+}
 body{
     background-repeat: no-repeat;
     --background:#000000;
